@@ -1,0 +1,24 @@
+git config --global user.name "Alin89"	设置用户名
+git config --global user.email "1272941453@qq.com"	设置邮箱
+
+cd、mkdir		创建本地版本库
+pwd		显示当前目录
+git init		把当前目录变成仓库
+git add readme.txt		添加文件到暂存区
+git commit -m "添加一行"	提交内容
+git status			查看状态
+git diff readme.txt		查看更改
+git reset --hard HEAD^	版本回退
+git reset --hard HEAD~100	回退100个版本
+cat readme.txt		查看文件内容
+git reset --hard 039acae	恢复操作
+git reflog			获取版本号
+git checkout -- readme.txt	撤销工作区操作
+git checkout -b dev		创建并切换分支
+git bransh			查看当前分支
+git checkout		切换分支
+git merge dev		合并分支内容
+git branch -d		删除分支
+
+
+
